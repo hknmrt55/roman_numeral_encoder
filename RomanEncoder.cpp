@@ -30,10 +30,10 @@ int main()
 
         if (number >= 0 && number <= 3999)
         {
-            break; // Exit the loop if the input is valid
+            break;
         }
         std::cout << "Invalid input. Please enter a number between 0 and 3999." << std::endl;
-         std::cin.clear();  // Clear the error flag
+         std::cin.clear();
 
     }
 
